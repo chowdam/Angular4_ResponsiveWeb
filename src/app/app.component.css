@@ -1,0 +1,13 @@
+.jumbotron {
+    padding-top: 70px;
+}
+
+.main-content {
+    margin-top: 90px;
+    width: 100%;
+    height: 100%;
+}
+
+.pnl-main-content {
+    min-height: 600px;
+}

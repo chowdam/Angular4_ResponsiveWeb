@@ -1,0 +1,40 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.autoSave": "afterDelay",
+    "typescript.tsserver.trace": "verbose",
+
+   // Controls if quick suggestions should show up while typing
+    "editor.quickSuggestions": true,
+
+    // Controls if suggestions should be accepted with "Enter" - in addition to "Tab". Helps to avoid ambiguity between inserting new lines and accepting suggestions.
+    "editor.acceptSuggestionOnEnter": true,
+
+  "editor.autoClosingBrackets": true,
+  "editor.formatOnPaste": true,
+  // Controls if the editor should automatically format the pasted content. A formatter must be available and the formatter should be able to format a range in a document.
+  "editor.formatOnSave": true,
+
+    // Controls the delay in ms after which quick suggestions will show up.
+    "editor.quickSuggestionsDelay": 10,
+
+    // Enable word based suggestions
+    "editor.wordBasedSuggestions": true,
+
+    // Enable parameter hints
+    "editor.parameterHints": true,
+// An array of glob keys to ignore when searching.
+    "relativePath.ignore": [
+        "**/node_modules/**",
+        "**/*.dll",
+        "**/obj/**",
+        "**/objd/**"
+    ],
+
+    // Excludes the extension from the relative path url (Useful for systemjs imports).
+    "relativePath.removeExtension": false,
+
+    // An array of extensions to exclude from the relative path url (Useful for used with Webpack or when importing files of mixed types)
+    "relativePath.excludedExtensions": [
+        ".js"
+    ],
+}

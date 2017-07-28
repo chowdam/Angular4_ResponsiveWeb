@@ -1,0 +1,91 @@
+/*.bg-inverse {
+background:#3030a2;
+
+}
+.navbar-inverse{
+  color: #3030a2;
+  border-color:#3030a2;
+}
+*/
+.header{
+  padding:2px;
+  font-size: 14px;  
+}
+
+.header[_ngcontent-c1] .navbar[_ngcontent-c1] {
+    background: linear-gradient(to right,#3030A2, #2fa4e7  ) !important;   
+    background-color: rgb(34, 34, 34);
+}
+
+.navbar{
+  margin-bottom:5px;
+}
+.navbar-brand{
+   font-size: 16px;
+   text-align:center;
+   vertical-align: center;
+   padding: 5px;
+}
+
+.nav-item{
+  padding:5px;
+}
+.topnav {
+  border-radius: 0;
+  background-color: #222;
+  padding: 6px;
+  z-index: 2;
+}
+.topnav .text-center {
+  text-align: center;
+  padding-left: 0;
+  cursor: pointer;
+}
+.topnav .top-right-nav .buy-now a {
+  color: #999;
+}
+.topnav .top-right-nav .dropdown-menu {
+  top: 40px;
+  right: -5px;
+  left: auto;
+}
+.topnav .top-right-nav .dropdown-menu .message-preview .media .media-body .media-heading {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.topnav .top-right-nav .dropdown-menu .message-preview .media .media-body p {
+  margin: 0;
+}
+.topnav .top-right-nav .dropdown-menu .message-preview .media .media-body p.last {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.topnav .top-right-nav .dropdown-menu hr {
+  margin-top: 1px;
+  margin-bottom: 4px;
+}
+.messages {
+  width: 300px;
+}
+.messages .media {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 10px;
+}
+.messages .media:last-child {
+  border-bottom: none;
+}
+.messages .media-body h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.messages .media-body .small {
+  margin: 0;
+}
+.messages .media-body .last {
+  font-size: 12px;
+  margin: 0;
+}
+.header .navbar {
+  background: #222 !important;
+}
